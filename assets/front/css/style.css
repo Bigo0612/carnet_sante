@@ -70,7 +70,7 @@ nav .nav {
 
 .nav li{
   float: left;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 nav .nav li a {
@@ -81,12 +81,13 @@ nav .nav li a {
   text-transform: uppercase;
   color: #C0C0C0;
   padding: 7px;
+  border-radius: 5px;
 }
 
 nav .nav li a:hover{
-  -webkit-box-shadow: 1px -1px 9px 9px rgba(219,215,219,1);
-  -moz-box-shadow: 1px -1px 9px 9px rgba(219,215,219,1);
-  box-shadow: 1px -1px 9px 9px rgba(219,215,219,1);
+  -webkit-box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
+  -moz-box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
+  box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
 }
 
 .boxregistered {
