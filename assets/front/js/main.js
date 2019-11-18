@@ -4,6 +4,11 @@ $(window).load(function() {
 	controlNav: false,
 	});
 
+	$('.dashboard-slideheader').flexslider({
+	animation: "slide",
+	controlNav: false,
+	});
+
 	$('body').flowtype({
 		minimum : 480,
  		maximum : 1280,

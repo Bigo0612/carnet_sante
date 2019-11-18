@@ -405,7 +405,7 @@ section .boxpresentation img {
 
 /* ==== HEADER DASHBOARD === */
 
-.header-acceuil {
+.dashboard-header {
   background-color: #fff;
   padding-bottom: 30px;
   padding-top: 20px;
@@ -414,17 +414,17 @@ section .boxpresentation img {
   z-index: 2;
   width: 100%;
 }
-.boxlogo {
+.dashboard-boxlogo {
  display: inline;
  float: left;
 }
-.boxlogo img {
+.dashboard-boxlogo img {
   width: 100px;
 }
-.boxslogan {
+.dashboard-boxslogan {
   float: left;
 }
-.boxslogan a {
+.dashboard-boxslogan a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -435,28 +435,28 @@ section .boxpresentation img {
   -webkit-text-fill-color: transparent;
 }
 
-.nav-acceuil{
+.dashboard-nav-acceuil{
   float: left;
   margin-left: 3%;
 }
 
-nav .nav {
+nav .dashboard-nav {
   float: left;
   margin-top: 40px;
   font-size: 0.9em;
   font-weight: bold;
 }
 
-.nav{
+.dashboard-nav{
   width: 100%;
 }
 
-.nav li{
+.dashboard-nav li{
   float: left;
   margin-left: 3px;
 }
 
-nav .nav li a {
+nav .dashboard-nav li a {
   width: 20%;
   text-align: center;
   color: #0095FF;
@@ -467,33 +467,20 @@ nav .nav li a {
   border-radius: 5px;
 }
 
-nav .nav li a:hover{
+nav .dashboard-nav li a:hover{
   -webkit-box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
   -moz-box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
   box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
 }
 
-.boxregistered {
+.dashboard-deconnection {
   float: left;
   margin-left: 3%;
   margin-top: 60px;
 }
-.connexion {
-  float: left;
-  text-align: center;
-  margin-left: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.connexion a {
-  padding: 5px 7px;
-}
 
-.login a {
-  color: #C0C0C0;
-}
 
-.inscription a{
+.dashboard-deconnection a{
   color: #fff;
   padding: 5px 7px;
   background: #6DC2FF;
@@ -503,10 +490,10 @@ nav .nav li a:hover{
   box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5);
 }
 
-.inscription a:hover {
+.dashboard-deconnection a:hover {
   background: linear-gradient( #777, #333);
 }
-.inscription a:active {
+.dashboard-deconnection a:active {
   background: linear-gradient( #555, #2C2C2C);
   box-shadow: 1px 1px 10px black inset,
   0 1px 0 rgba( 255, 255, 255, 0.4);
@@ -515,13 +502,13 @@ nav .nav li a:hover{
 /* Fin header */
 
 /* Travail section placement relative et absolute */
-.section1 {
+.dashboard-section1 {
   position: relative;
   width: 100%;
   margin-top: 155px;
 }
 
-.boxpresentation {
+.dashboard-boxpresentation {
   position: absolute;
   top: 0;
   left: 10%;
@@ -529,13 +516,13 @@ nav .nav li a:hover{
 /* Fin section placement asbolute et realtive */
 
 /* Slider */
-.slider ul li {
+.dashboard-slider ul li {
   text-align: center;
 }
-.slider .slides li img {
+.dashboard-imageslider {
   width: 100%;
 }
-.slider p {
+.dashboard-slideheader p {
   text-align: center;
   color: #F0E1CC;
   padding-bottom: 15px;
@@ -544,12 +531,12 @@ nav .nav li a:hover{
 
 /* presentation box texte et image */
 
-.boxpresentationtexte {
+.dashboard-boxpresentationtexte {
   float: left;
   width: 50%;
   padding-top: 20%;
 }
-.boxpresentationimg {
+.dashboard-boxpresentationimg {
   float: right;
   width: 50%;
   padding-top: 20%;
@@ -560,23 +547,23 @@ nav .nav li a:hover{
 .color {
   color: #001AFF;
 }
- section .boxpresentationtitle {
+ section .dashboard-boxpresentationtitle {
    font-weight: bold;
    font-size: 1.5em;
    line-height: 120%;
    color: #fff;
    padding-top: 35px;
  }
- section .boxpresentationtxt {
+ section .dashboard-boxpresentationtxt {
    padding-top: 25px;
    font-size: .9em;
    color: #fff;
    font-weight: 0;
  }
-section .boxpresentationliencreation {
+section .dashboard-boxpresentationliencreation {
   padding: 25px 0;
 }
-section .boxpresentationliencreation p {
+section .dashboard-boxpresentationliencreation p {
   font-size: 1.4em;
   padding-top: 7px;
   background: linear-gradient( #3BACFC, #0095FF);
@@ -588,32 +575,32 @@ section .boxpresentationliencreation p {
   box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
   0 -1px 0 rgba( 255, 255, 255, 0.4);
 }
-section .boxpresentationliencreation p:hover {
+section .dashboard-boxpresentationliencreation p:hover {
   background: linear-gradient( #777, #333);
 }
-section .boxpresentationliencreation p:active {
+section .dashboard-boxpresentationliencreation p:active {
   background: linear-gradient( #555, #2C2C2C);
   box-shadow: 1px 1px 10px black inset,
   0 1px 0 rgba( 255, 255, 255, 0.4);
 }
-section .boxpresentationliencreation p a {
+section .dashboard-boxpresentationliencreation p a {
   color: #fff;
   text-decoration: none;
 }
-section .boxpresentationliencompte {
+section .dashboard-boxpresentationliencompte {
   padding-bottom: 46px;
 }
-section .boxpresentationliencompte p {
+section .dashboard-boxpresentationliencompte p {
   font-size: 1.2em;
   color: #fff;
   font-weight: lighter;
 }
-section .boxpresentationliencompte p a {
+section .dashboard-boxpresentationliencompte p a {
   text-decoration: none;
   color: #fff;
   font-size: 1em;
   text-decoration: underline;
 }
-section .boxpresentation img {
+section .dashboard-boxpresentation img {
   width: 100%;
 }
