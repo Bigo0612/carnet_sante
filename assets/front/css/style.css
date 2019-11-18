@@ -604,3 +604,38 @@ section .dashboard-boxpresentationliencompte p a {
 section .dashboard-boxpresentation img {
   width: 100%;
 }
+
+/* section partenaires */
+/* Placements des sections partenaires relative et absolute */
+.sectionpartenaire1 {
+  position: relative;
+  width: 100%;
+}
+
+.partenairesintroduction1 {
+  position: absolute;
+  top: 0;
+}
+/* Fin section placement asbolute et realtive */
+/* background partenaires */
+.backgroundpartenaire1 {
+  width: 100%;
+}
+/* fin background partenaires */
+/* images des gens contents */
+.boxpartenairescontents {
+  float: right;
+  width: 50%;
+}
+
+.content {
+  width: 48%;
+  margin: 1%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+
+.imgcontent {
+  width: 100%;
+}
