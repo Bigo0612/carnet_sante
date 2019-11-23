@@ -607,7 +607,7 @@ font-size: 1.2em;
   width: 100%;
 }
 /* fin background partenaires */
-/* images des gens contents à droite  */
+/* images des gens contents à droite, peut être revoir les dimensions  */
 .boxpartenairescontents {
   float: right;
   width: 50%;
@@ -627,3 +627,46 @@ font-size: 1.2em;
 .content .imgcontent {
   padding: 5px;
 }
+.imgcontent1 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imgcontent1:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+
+.imgcontent2 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imgcontent2:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+.imgcontent3 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imgcontent3:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+
+.imgcontent4 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imgcontent4:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+/* Page partenaire texte de gauche */
