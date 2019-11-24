@@ -26,28 +26,25 @@
     $error['cgu']       = $formVerif->errorCheckBox($cgu, "Veuillez accepter les CGU.");
   }
 
-?>
+  include "header.php";
 
-<?php include "header.php"; ?>
 
-  <?php
-    $form->init("", "post");
-    $form->inputText("nom", "Nom: ", "Entrez votre nom.");
-    if(!empty($error['nom'])){$formVerif->printError($error['nom']);};
-    $form->inputText("prenom", "Prenom: ", "Entrez votre prenom.");
-    if(!empty($error['prenom'])){$formVerif->printError($error['prenom']);};
-    $form->inputText("email", "Email: ", "michel.michel@hotmail.fr");
-    if(!empty($error['email'])){$formVerif->printError($error['email']);};
-    $form->inputText("email2", "Repetez votre Email: ", "");
-    if(!empty($error['email2'])){$formVerif->printError($error['email2']);};
-    $form->inputPassword("password", "Mot de passe: ", "");
-    if(!empty($error['password'])){$formVerif->printError($error['password']);};
-    $form->inputPassword("password2", "Repetez votre Mot de passe: ", "");
-    if(!empty($error['password2'])){$formVerif->printError($error['password2']);};
-    $form->checkBox("cgu", 'Accepter les <a href="#">CGU</a>.');
-    if(!empty($error['cgu'])){$formVerif->printError($error['cgu']);};
-    $form->inputSubmit("submited");
-    $form->end();
-  ?>
+  $form->init("", "post");
+  $form->inputText("nom", "Nom: ", "Entrez votre nom.");
+  if(!empty($error['nom'])){$formVerif->printError($error['nom']);};
+  $form->inputText("prenom", "Prenom: ", "Entrez votre prenom.");
+  if(!empty($error['prenom'])){$formVerif->printError($error['prenom']);};
+  $form->inputText("email", "Email: ", "michel.michel@hotmail.fr");
+  if(!empty($error['email'])){$formVerif->printError($error['email']);};
+  $form->inputText("email2", "Repetez votre Email: ", "");
+  if(!empty($error['email2'])){$formVerif->printError($error['email2']);};
+  $form->inputPassword("password", "Mot de passe: ", "");
+  if(!empty($error['password'])){$formVerif->printError($error['password']);};
+  $form->inputPassword("password2", "Repetez votre Mot de passe: ", "");
+  if(!empty($error['password2'])){$formVerif->printError($error['password2']);};
+  $form->checkBox("cgu", 'Accepter les <a href="#">CGU</a>.');
+  if(!empty($error['cgu'])){$formVerif->printError($error['cgu']);};
+  $form->inputSubmit("submited");
+  $form->end();
 
-<?php include "footer.php";
+  include "footer.php";

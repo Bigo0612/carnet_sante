@@ -30,7 +30,7 @@
             </div>
               <nav class="nav-acceuil">
                 <ul class="nav navbar">
-                  <li><a class=""href="#">acceuil</a></li>
+                  <li><a class=""href="index.php">acceuil</a></li>
                   <li><a href="#">presentation</a></li>
                   <li><a href="#">qui sommes nous</a></li>
                   <li><a href="#">vaccination</a></li>
@@ -39,7 +39,7 @@
               </nav>
             <div class="boxregistered">
               <div class="connexion login">
-                <a href="#">Connexion</a>
+                <a href="connexion.php">Connexion</a>
                 </div>
                 <div class="connexion inscription">
                 <a href="inscription.php">Inscription</a>
