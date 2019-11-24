@@ -30,11 +30,11 @@
             </div>
               <nav class="nav-acceuil">
                 <ul class="nav navbar">
-                  <li><a class=""href="index.php">acceuil</a></li>
+                  <li><a href="index.php">acceuil</a></li>
                   <li><a href="#">presentation</a></li>
-                  <li><a href="#">qui sommes nous</a></li>
-                  <li><a href="#">vaccination</a></li>
-                  <li><a href="#">nos partenaires</a></li>
+                  <li><a href="#qsn">qui sommes nous</a></li>
+                  <li><a href="#vaccination">vaccination</a></li>
+                  <li><a href="#partenaire">nos partenaires</a></li>
                 </ul>
               </nav>
             <div class="boxregistered">

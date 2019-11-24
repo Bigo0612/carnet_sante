@@ -768,17 +768,15 @@ font-size: 1.2em;
 /* fin texte de gauche partenaire */
 /* logo partenaires */
 .listepartenaires {
-  max-width: 100%;
+  width: 100%;
 }
-.logopartenaires {
-  max-width: 23%;
-	height: auto;
-  float: right;
+
+.partenaire{
+  float: left;
+  margin: 20px 2%;
+  width: 21%;
 }
-.medecinssansfrontieres {
-  margin-left: auto;
-}
-.croixrouge {
-  margin-left: auto;
-  margin-right: auto;
+
+.partenaire img{
+  width: 100%;
 }
