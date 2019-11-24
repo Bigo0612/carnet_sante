@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/front/css/formcontact.css">
-
 <?php
 include('header.php');
 // FONCTIONS
@@ -77,12 +75,13 @@ $select = array(
   <p class="success">Merci pour votre message, nous y pretons la plus grande attention, et tachons d'y répondre le plus rapidement possible.</p>
   <div class="retour-index"><a href="index.html">Accueil</a></div>
 <?php } else {?>
+
 <div class="wrap">
 
 
   <form class="formulaire-contact" action="" method="post">
 
-    <div class="formulaire nom">
+    <div id="form-encre" class="formulaire nom">
       <label  class="label-contact" for="nom">Nom :</label>
       <input class="input-contact" type="text" id="nom" name="nom" value="<?php if (!empty($_POST['nom'])) {echo $_POST['nom'];} ?>">
       <span class="error"><?php if(!empty($errors['nom'])) {echo $errors['nom'];} ?>
