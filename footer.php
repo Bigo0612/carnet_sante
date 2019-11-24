@@ -1,3 +1,5 @@
+      </div>
+
 <!-- FOOTER -->
 <footer class="footer">
 <div class="wrap">

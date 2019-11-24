@@ -9,13 +9,13 @@
   $error = array();
 
   if(isset($_POST['submited'])){
-    $nom       = $_POST['nom'];
-    $prenom    = $_POST['prenom'];
-    $email     = $_POST['email'];
-    $email2    = $_POST['email2'];
-    $password  = $_POST['password'];
-    $password2 = $_POST['password2'];
-    $cgu       = (!empty($_POST['cgu'])) ? true : false;
+    $nom       = trim(strip_tags($_POST['nom']));
+    $prenom    = trim(strip_tags($_POST['prenom']));
+    $email     = trim(strip_tags($_POST['email']));
+    $email2    = trim(strip_tags($_POST['email2']));
+    $password  = trim(strip_tags($_POST['password']));
+    $password2 = trim(strip_tags($_POST['password2']));
+    $cgu       = trim(strip_tags((!empty($_POST['cgu'])) ? true : false));
 
     $error['nom']       = $formVerif->errorText($nom, 'nom', 5, 20);
     $error['prenom']    = $formVerif->errorText($prenom, 'prenom', 5, 20);
@@ -29,7 +29,7 @@
   include "header.php";
 
 
-  $form->init("", "post");
+  $form->init("", "post", "form-inscription");
   $form->inputText("nom", "Nom: ", "Entrez votre nom.");
   if(!empty($error['nom'])){$formVerif->printError($error['nom']);};
   $form->inputText("prenom", "Prenom: ", "Entrez votre prenom.");

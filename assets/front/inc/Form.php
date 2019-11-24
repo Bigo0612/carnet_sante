@@ -2,7 +2,7 @@
 
 class Form{
 
-  public function init($action, $method, $idForm = "", $classForm = ""){
+  public function init($action, $method, $classForm = "", $idForm = ""){
     echo '<form id="'.$idForm.'" class="'.$classForm.'" action="'.$action.'" method="'.$method.'">';
   }
 
@@ -30,7 +30,7 @@ class Form{
 
   public function checkBox($name, $text, $classText = "", $value = "yes", $idCheckBox = "", $classCheckBox = "", $idText = ""){
     $checkBox  = '<input id="'.$idCheckBox.'" class="'.$classCheckBox.'" type="checkbox" name="'.$name.'" value="'.$value.'">';
-    $checkBox .= '<span id="'.$idText.'" class="'.$classText.'">'.$text.'</span>';
+    $checkBox .= '<p id="'.$idText.'" class="'.$classText.'">'.$text.'</p>';
     echo $checkBox;
   }
 
