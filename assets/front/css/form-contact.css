@@ -1,0 +1,84 @@
+@import "reset.css";
+
+.wrap {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+.formulaire-contact {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  border: 2px solid #035997;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+.formulaire-contact span {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    margin-left: 20%;
+    color: red;
+    font-size: .7em;
+}
+.formulaire-contact label,input {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+}
+.formulaire-contact input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.formulaire-contact input[type = "submit"]{
+  margin-top: 5px;
+  padding: 5px 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #035997;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.formulaire-contact input[type = "submit"]:hover{
+ background-color: grey;
+}
+.formulaire-contact input[type = "button"]{
+  margin-top: 5px;
+  padding: 5px 15px;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #035997;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.formulaire-contact input[type = "button"]:hover{
+ background-color: grey;
+}
+.formulaire-contact label{
+  color: #035997;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 2%;
+}
+.formulaire-contact textarea {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+  width: 300px;
+  resize: none;
+  border-radius: 4px;
+}
+.formulaire-contact select {
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+  width: 300px;
+  border-radius: 4px;
+}
