@@ -611,6 +611,9 @@ font-size: 1.2em;
 .boxpartenairescontents {
   float: right;
   width: 50%;
+  margin-top: 180px;
+  margin-right: 100px;
+}
 }
 .contents {
   float: right;
@@ -670,3 +673,34 @@ font-size: 1.2em;
 	filter: sepia(0);
 }
 /* Page partenaire texte de gauche */
+.partenairesintroduction1 {
+  display: flex;
+  align-items: baseline;
+}
+.boxpartenairesslogan {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.slogan {
+  font-size: 1.3em;
+  font-family:inherit;
+  font-style: italic;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.slogancolor {
+  color:#FFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border-color: black;
+
+}
+.pourquoi {
+  margin: 50px 0 30px 0;
+  font-size: 1.2em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.parceque {
+  line-height: 1.2;
+  font-size: 1.2em;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
