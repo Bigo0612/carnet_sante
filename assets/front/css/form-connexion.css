@@ -19,7 +19,7 @@
   margin-bottom: 10px;
 }
 
-.form-connexion input[type = "text"], input[type = "password"]{
+.form-connexion input{
   width: 300px;
   padding: 10px;
   border-radius: 10px;
