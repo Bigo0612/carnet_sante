@@ -20,7 +20,7 @@
   margin-bottom: 10px;
 }
 
-.form-inscription input[type = "text"], input[type = "password"]{
+.form-inscription input{
   width: 300px;
   padding: 10px;
   border-radius: 10px;
@@ -39,7 +39,6 @@
 .form-inscription label{
   color: #035997;
   font-weight: bold;
-  font-size: 1.1em;
   text-decoration: underline;
-  padding-left: 10%;
+  padding-left: 2%;
 }
