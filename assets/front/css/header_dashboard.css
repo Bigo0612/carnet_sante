@@ -1,0 +1,378 @@
+﻿/* ==== HEADER DASHBOARD === */
+
+.dashboard-header {
+  background-color: #fff;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+.dashboard-boxlogo {
+ display: inline;
+ float: left;
+}
+.dashboard-boxlogo img {
+  width: 100px;
+}
+.dashboard-boxslogan {
+  float: left;
+}
+.dashboard-boxslogan a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  margin-top: 45px;
+  background: -webkit-linear-gradient(#d4efc9, #adeb93);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-nav-acceuil{
+  float: left;
+  margin-left: 15%;
+}
+
+nav .dashboard-nav {
+  float: left;
+  margin-top: 40px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.dashboard-nav{
+  width: 100%;
+}
+
+
+.dashboard-nav li{
+  float: left;
+  margin-left: 3px;
+}
+
+nav .dashboard-nav li a {
+  margin-right: 40px;
+  width: 20%;
+  text-align: center;
+  color: #0095FF;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+nav .dashboard-nav li a:hover{
+  -webkit-box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
+  -moz-box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
+  box-shadow: 1px -1px 9px 4px rgba(219,215,219,1);
+}
+
+.dashboard-deconnection {
+  text-transform: uppercase;
+  font-weight: bold;
+  float: left;
+  margin-left: 14%;
+  margin-top: 60px;
+}
+
+
+.dashboard-deconnection a{
+  color: #fff;
+  padding: 5px 7px;
+  background: #6DC2FF;
+  background: linear-gradient( #3BACFC, #0095FF);
+  border-radius: 8px;
+  text-shadow: 0px .1px 0px #000;
+  box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5);
+}
+
+.dashboard-deconnection a:hover {
+  background: linear-gradient( #777, #333);
+}
+.dashboard-deconnection a:active {
+  background: linear-gradient( #555, #2C2C2C);
+  box-shadow: 1px 1px 10px black inset,
+  0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+/* Fin header */
+
+/* Travail section placement relative et absolute */
+.dashboard-section1 {
+  position: relative;
+  width: 100%;
+  margin-top: 155px;
+}
+
+.dashboard-boxpresentation {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+/* Fin section placement asbolute et realtive */
+
+/* Slider */
+.dashboard-slider ul li {
+  text-align: center;
+}
+.dashboard-imageslider {
+  width: 100%;
+}
+.dashboard-slideheader p {
+  text-align: center;
+  color: #F0E1CC;
+  padding-bottom: 15px;
+}
+/* FIN SLIDER */
+
+/* presentation box texte et image */
+
+
+.dashboard-boxpresentationtexte {
+  float: left;
+  width: 50%;
+  padding-top: 20%;
+}
+.dashboard-boxpresentationimg {
+  float: right;
+  width: 50%;
+  padding-top: 20%;
+}
+ /* Fin pres box texte et image */
+
+/* Section gauche texte */
+.color {
+  color: #001AFF;
+}
+ section .dashboard-boxpresentationtitle {
+   font-weight: bold;
+   font-size: 1.5em;
+   line-height: 120%;
+   color: #fff;
+   padding-top: 35px;
+ }
+ section .dashboard-boxpresentationtxt {
+   padding-top: 25px;
+   font-size: .9em;
+   color: #fff;
+   font-weight: 0;
+ }
+
+section .dashboard-boxpresentation img {
+  width: 100%;
+}
+
+.dashbord-box-astuce {
+float: left;
+color: #fff;
+margin: 80px;
+font-size: 1.2em;
+}
+
+.dashbord-box-astuce ul li{
+  margin-bottom: 20px;
+}
+
+.dashbord-box-astuce ul li p{
+  display: inline;
+  margin-left: 10px;
+}
+
+.dashbord-box-astuce i {
+  color: lime;
+}
+
+/* section partenaires */
+/* Placements des sections partenaires relative et absolute */
+.backgroundpartenaire1 {
+  width: 100%;
+}
+.sectionpartenaire1 {
+  position: relative;
+  width: 100%;
+}
+.partenairesintroduction1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.boxpartenairesslogan {
+  padding: 100px 0 0 60px;
+}
+/* fin background partenaires */
+/* images des gens contents à droite, peut être revoir les dimensions  */
+.boxpartenairesconfiance{
+  float: left;
+  width: 50%;
+}
+.boxpartenairescontents {
+  float: left;
+  width: 50%;
+}
+.contents {
+  float: right;
+  width: 100%;
+  padding-right: 20px;
+}
+.content {
+  width: 40%;
+  float: right;
+  margin-bottom: 20px;
+}
+.imgcontent {
+<<<<<<< HEAD
+=======
+  width: 100%;
+}
+.content .imgcontent {
+  padding: 5px;
+}
+.imgcontent1 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -moz-border-radius: 0 15px;
+  -webkit-border-radius: 0 15px;
+  border-radius: 0 15px;
+}
+.imgcontent1:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+
+.imgcontent2 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -moz-border-radius:15px 0;
+  -webkit-border-radius:15px 0;
+  border-radius:15px 0;
+
+}
+.imgcontent2:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+.imgcontent3 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -moz-border-radius:15px 0;
+  -webkit-border-radius:15px 0;
+  border-radius:15px 0;
+}
+.imgcontent3:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+
+.imgcontent4 {
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  -moz-border-radius: 0 15px;
+  -webkit-border-radius: 0 15px;
+  border-radius: 0 15px;
+}
+.imgcontent4:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+/* Page partenaire texte de gauche */
+
+.boxpartenairesslogan {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.slogan {
+  font-size: 1.3em;
+  font-family:inherit;
+  font-style: italic;
+  color: #fff;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+}
+.slogancolor {
+  color:#FFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border-color: black;
+}
+.anim1:hover {
+  color:#FFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border-color: black;
+  transition-duration: 0.3s;
+  font-size: 120%;
+}
+.anim2:hover {
+  color:#FFF;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border-color: black;
+  transition-duration: 0.3s;
+  font-size: 107%;
+}
+
+.pourquoi {
+  margin: 50px 0 30px 0;
+  font-size: 1.2em;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+  color: #fff;
+}
+.parceque {
+  line-height: 1.2;
+  font-size: 1.3em;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+  color: #fff;
+}
+.un:hover {
+  line-height: 1.2;
+  font-size: 120%;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+  color: #fff;
+}.deux:hover {
+  line-height: 1.2;
+  font-size: 120%;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+  color: #fff;
+}
+.trois:hover {
+  line-height: 1.2;
+  font-size: 120%;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+  color: #fff;
+}
+.quatre:hover {
+  line-height: 1.2;
+  font-size: 120%;
+  text-shadow: #4169E1 0.1em 0.1em 0.2em;
+  color: #fff;
+}
+.raison{
+  transition-duration: 0.3s;
+}
+
+/* fin texte de gauche partenaire */
+/* logo partenaires */
+.listepartenaires {
+  width: 100%;
+}
+
+.partenaire{
+  float: left;
+  margin: 20px 2%;
+  width: 21%;
+}
+
+.partenaire img{
+>>>>>>> 641c2428bde32fc1afb88e09845bd7908d35bb38
+  width: 100%;
+}
