@@ -47,29 +47,16 @@ header{
 .boxlogo img {
   width: 100px;
 }
-.boxslogan {
-  float: left;
-}
-.boxslogan a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  font-size: 2em;
-  margin-top: 45px;
-  background: -webkit-linear-gradient(#d4efc9, #adeb93);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .nav-acceuil{
   float: left;
-  margin-left: 3%;
+  margin-left: 6%;
 }
 
 nav .nav {
   float: left;
   margin-top: 40px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -101,8 +88,8 @@ nav .nav li a:hover{
 
 .boxregistered {
   float: left;
-  margin-left: 3%;
-  margin-top: 60px;
+  margin-left: 5%;
+  margin-top: 39px;
 }
 .connexion {
   float: left;
