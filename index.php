@@ -109,10 +109,9 @@
 
           </div>
         </div>
-    <div class="clear"></div>
       </section>
-
       <div class="wrap">
+      <div class="clear"></div>
   <!-- début Section partenaires : avec un background, du texte à gauche et
   et images de gens contents à droite -> position relative-->
         <section class="sectionpartenaire1">
@@ -126,38 +125,33 @@
     <!-- début partie gauche avec en premier le slogan-->
             <div class="boxpartenairesconfiance">
               <div class="boxpartenairesslogan">
-                <p class="slogan">Car vous avez <span class="slogancolor anim1"><strong>autre chose à penser ... </strong></span> <br/> Nous nous occupons de <span class="slogancolor anim2"><strong>vos piqûres de rappel</strong></span></p>
+                <p class="slogan">Car vous en avez <br/> suffisamment à l'esprit ...</p>
               <!-- </div> -->
     <!-- ensuite on pose la question et on y répond -->
               <!-- <div class="boxpartenairesraisons"> -->
-                <p class="pourquoi">Pourquoi nous faire confiance ?</p>
+              <div class="pourquoi1"><p class="pourquoi2">On s'occupe de tout :</p></div>
                 <ul class="parceque">
+                  <li class="raison deux">Des partenaires santé légitimes</li>
                   <li class="raison un">Confidentialité de vos données</li>
-                  <li class="raison deux">Nos partenaires santé</li>
-                  <li class="raison trois">Je sais pas quoi écrire</li>
-                  <li class="raison quatre">Je sais pas quoi écrire 2</li>
+                  <li class="raison trois">Vous êtes notifié des vaccins à venir</li>
+                  <li class="raison quatre">Sans même devoir y penser</li>
                 </ul>
               </div>
             </div>
     <!-- fin de la partie de gauche -->
     <!-- debut box droite ; 4 images-->
             <div class="boxpartenairescontents">
-              <div class="contents">
-                <div class="content content1">
-                  <img class="imgcontent imgcontent1" src="assets/front/img/homme1content.jpg" alt="">
-                  <img class="imgcontent imgcontent2" src="assets/front/img/couplecontent.png" alt="">
-                </div>
-                <div class="content content3">
-                  <img class="imgcontent imgcontent3" src="assets/front/img/homme2content.jpg" alt="">
-                  <img class="imgcontent imgcontent4" src="assets/front/img/femmecontente.jpg" alt="">
-                </div>
-              </div>
+              <img class="imgcontent imgcontent1" src="assets/front/img/homme1content.png" alt="">
+              <img class="imgcontent imgcontent2" src="assets/front/img/couplecontent.png" alt="">
+              <img class="imgcontent imgcontent3" src="assets/front/img/homme2content.png" alt="">
+              <img class="imgcontent imgcontent4" src="assets/front/img/femmecontente.png" alt="">
             </div>
           </section>
+          <div class="clear"></div>
         </section>
       </div>
   <!-- fin box de droite -->
-  <div class="clear"></div>
+
   <!-- section partenaires avec liens images  -->
       <div class="wrap">
         <h2 id="partenaire" class="h2vaccination">Nos partenaires</h2>
