@@ -31,6 +31,13 @@
       if (!empty($user)){
         if (password_verify($password, $user['password']) && $email == $user['email']) {
           session_start();
+          $_SESSION = array(
+            'id'    => $user['id'],
+            'nom'   => $user['nom'],
+            'email' => $user['email'],
+            'ip'    => $_SERVER['REMOTE_ADDR'],
+           );
+           die(print_r($_SESSION));
           header('Location: dashboard_header.php');
         } else {
           $error['password'] = "Veuillez renseigner un identifiant valide.";
