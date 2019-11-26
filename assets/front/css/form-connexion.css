@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.form-connexion label, input{
+.form-connexion label, .form-connexion input{
   display: block;
   margin-left: 50%;
   transform: translateX(-50%);

@@ -14,7 +14,7 @@
   margin-bottom: 10px;
 }
 
-.form-inscription label, input{
+.form-inscription label, .form-inscription input{
   display: block;
   margin-left: 50%;
   transform: translateX(-50%);

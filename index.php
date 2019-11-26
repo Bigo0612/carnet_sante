@@ -24,7 +24,7 @@
             <div class="boxpresentationtexte">
 
               <div class="boxpresentationtitle">
-                <h2>Gestionnaire de vaccination digitale <br> pour tout le monde.</h2>
+                <h2>Gestionnaire digitale de vaccination <br> pour tout le monde.</h2>
               </div>
 
               <div class="boxpresentationtxt">
@@ -133,8 +133,8 @@
                 <ul class="parceque">
                   <li class="raison deux">Des partenaires santé légitimes</li>
                   <li class="raison un">Confidentialité de vos données</li>
-                  <li class="raison trois">Vous êtes notifié des vaccins à venir</li>
-                  <li class="raison quatre">Sans même devoir y penser</li>
+                  <li class="raison trois">Notification des vaccins à venir</li>
+                  <li class="raison quatre">Vérification auprès de médecins</li>
                 </ul>
               </div>
             </div>
@@ -158,16 +158,17 @@
 
         <section class=listepartenaires >
             <div class="partenaire gouvsante">
-              <a href="#"> <img class="logopartenaires" src="assets/front/img/gouvsante.png" alt=""> </a>
+              <a href="https://solidarites-sante.gouv.fr/" title="Redirection vers le site" target="_blank"> <img class="logopartenaires" src="assets/front/img/gouvsante.png" alt=""> </a>
             </div>
             <div class="partenaire croixrouge">
-              <a href="#"> <img class="logopartenaires" src="assets/front/img/croixrouge.jpg" alt=""> </a>
+              <a href="https://www.croix-rouge.fr/" title="Redirection vers le site" target="_blank"> <img class="logopartenaires" src="assets/front/img/croixrouge.jpg" alt=""> </a>
             </div>
             <div class="partenaire medecinssansfrontieres">
-              <a href="#"> <img class="logopartenaires" src="assets/front/img/MSF.png" alt=""> </a>
+              <a href="https://www.msf.fr/" title="Redirection vers le site" target="_blank"> <img class="logopartenaires" src="assets/front/img/MSF.png" alt=""> </a>
             </div>
             <div class="partenaire care">
-              <a href="#"> <img class="logopartenaires" src="assets/front/img/care.png" alt=""> </a>
+              <a href="https://www.carefrance.org/"
+              title="Redirection vers le site" target="_blank"> <img class="logopartenaires" src="assets/front/img/care.png" alt=""> </a>
             </div>
             <div class="clear"></div>
         </section>

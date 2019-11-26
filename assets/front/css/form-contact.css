@@ -23,7 +23,7 @@
     color: red;
     font-size: .7em;
 }
-.formulaire-contact label,input {
+.formulaire-contact label, .formulaire-contact input {
   display: block;
   margin-left: 50%;
   transform: translateX(-50%);

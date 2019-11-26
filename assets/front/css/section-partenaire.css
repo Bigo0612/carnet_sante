@@ -79,6 +79,7 @@
 .pourquoi1 {
   color: #F7F7F7;
   font-size: 1.6em;
+  font-weight: bold;
 }
 .pourquoi2 {
   float: left;
@@ -89,6 +90,7 @@
   color: #F7F7F7;
   list-style: inside;
   font-size: 1.6em;
+  font-weight: bold;
 }
 /* fin texte de gauche partenaire */
 /* logo partenaires */
@@ -110,8 +112,27 @@
   margin-top: -51px;
 }
 @media screen and (max-width: 840px) {
+  .boxpartenairesconfiance {
+    width: 100%;
+    float: left;
+    font-size: 0.9em;
+    transform: translateX(-14%);
+    padding-top: 100px;
+  }
+  .boxpartenairesslogan {
+    margin-right: auto;
+  }
+  .slogan {
+    margin: auto;
+  }
+  .boxpartenairescontents {
+    width: 100%;
+    float: left;
+  }
   .imgcontent {
     width: 23%;
-    margin-top: 90px;
+    margin-bottom: 155px;
+    transform: translateY(-55%);
+    margin-left: 7px;
   }
 }
