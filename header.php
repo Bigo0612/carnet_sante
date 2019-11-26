@@ -25,10 +25,10 @@
           <div class="boxlogo">
               <a href="#"><img src="assets/front/img/logo_ADN.png" alt="logo_ADN"></a>
           </div>
-          <div class="menu-burger">
-            <i class="fas fa-bars"></i>
+          <div class="menu-burger" id="boutonburger">
+             <i class="fas fa-bars"></i>
           </div>
-              <nav class="nav-acceuil">
+              <nav class="nav-acceuil" id="navburger">
                 <ul class="nav navbar">
                   <li><a href="index.php">acceuil</a></li>
                   <li><a href="#">presentation</a></li>
