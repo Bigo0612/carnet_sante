@@ -16,4 +16,9 @@ $(window).load(function() {
  		maxFont : 16,
 		fontRatio: 60,
 	});
+
+  $("#boutonburger").on("click", function() {
+    $("#navburger").slideToggle(200);
+
+  });
 });
