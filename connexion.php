@@ -16,24 +16,22 @@
     $password  = trim(strip_tags($_POST['password']));
 
     $error['email']     = $formVerif->errorEmail($email, 'email', 10, 100);
-    $error['password']  = $formVerif->errorText($password, 'Mot de passe', 10, 255);
+    $error['password']  = $formVerif->errorText($password, 'Mot de passe', 5, 255);
 
-    if(empty($error)) {
+    if(!empty($error)) {
       $sql = "SELECT *
               FROM `users`
-              WHERE email= :email
-              AND password= :password";
+              WHERE email= :email";
 
       $query = $pdo->prepare($sql);
       $query->bindValue(':email',$email, PDO::PARAM_STR);
-      $query->bindValue(':password',$password, PDO::PARAM_STR);
       $query->execute();
       $user = $query->fetch();
 
       if (!empty($user)){
-        if (passwordVerif($password,$user['password']) && $email == $user['email']) {
+        if (password_verify($password, $user['password']) && $email == $user['email']) {
           session_start();
-          header('dashboard_header.html');
+          header('Location: dashboard_header.php');
         } else {
           $error['password'] = "Veuillez renseigner un identifiant valide.";
         }
@@ -54,4 +52,4 @@
   $form->end();
 
 
-  include "footer.php";
+  include('footer.php');

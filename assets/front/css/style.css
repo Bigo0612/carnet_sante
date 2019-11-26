@@ -3,6 +3,7 @@
 @import "form-inscription.css";
 @import "form-contact.css";
 @import "section-partenaire.css";
+@import "dashboard_header.css";
 
 .form-inscription, .form-connexion, .form-contact{
   margin-top: 220px;

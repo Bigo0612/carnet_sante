@@ -33,11 +33,23 @@ function textValid($value, $err, $key, $min, $max,$empty = true)
    }
   return $err;
 }
-//
 
-
-function passwordVerif($value,$value2)
+function debug($value)
 {
-return $password = (password_hash($value,PASSWORD_ARGON2ID) == $value2) ? true : false;
+echo '<pre>';
+print_r($value);
+echo '<pre>';
 }
+
+function generateToken()
+{
+  $token = '';
+  $chaine = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZé-_èçàè&°+$%*/!&1234567890";
+    for ($i=0; $i < 255 ; $i++) {
+      $token .= $chaine[rand(0,mb_strlen($chaine))];
+
+    }
+      return $token;
+}
+
 // FIN Fonctions;

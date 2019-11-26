@@ -2,7 +2,6 @@
 
   <head>
 
-    <link rel="stylesheet" href="assets/front/css/header_dashboard.css">
     <link rel="stylesheet" href="assets/front/css/flexslider.css">
 
 
@@ -11,7 +10,7 @@
 
 
     <title>ADN</title>
-
+    <link rel="stylesheet" href="assets/front/css/style.css">
     <script src="https://kit.fontawesome.com/0184472428.js" crossorigin="anonymous"></script>
   </head>
 
@@ -26,7 +25,7 @@
           </div>
               <nav class="dashboard-nav-acceuil">
                 <ul class="dashboard-nav navbar">
-                  <li><a class=""href="#">acceuil</a></li>
+                  <li><a class=""href="index.php">acceuil</a></li>
                   <li><a href="#">vaccination</a></li>
                   <li><a href="#">gestion profil</a></li>
                 </ul>
