@@ -25,9 +25,6 @@
           <div class="boxlogo">
               <a href="#"><img src="assets/front/img/logo_ADN.png" alt="logo_ADN"></a>
           </div>
-            <div class="boxslogan">
-              <a href="#">Immunité.</a>
-            </div>
               <nav class="nav-acceuil">
                 <ul class="nav navbar">
                   <li><a href="index.php">acceuil</a></li>
@@ -47,7 +44,7 @@
               </div>
 
     </header>
-  </div>
+
   <div class="clear"></div>
 
   <div class="wrap">

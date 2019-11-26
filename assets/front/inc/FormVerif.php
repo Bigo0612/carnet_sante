@@ -32,6 +32,12 @@ class FormVerif{
     }
   }
 
+  public function errorRepeat($value, $value2, $text){
+    if($value != $value2){
+      return '<p style="color: red">'.$text.'</p>';
+    }
+  }
+
   public function printError($text){
     echo '<p style="color: red">'.$text.'</p>';
   }
