@@ -587,3 +587,41 @@ font-size: 1.2em;
 .dashbord-box-astuce i {
   color: lime;
 }
+
+.menu-burger i{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+
+  .menu-burger i{
+    display: block;
+    position: relative;
+    float: right;
+    color: #035997;
+    border: solid 2px #035997;
+    margin-right: 80px;
+    margin-top: 25px;
+    font-size: 3em;
+    cursor: pointer;
+    padding: 3px;
+  }
+
+  .nav li {
+    float: none;
+  }
+
+  nav .nav {
+    float: none;
+  }
+
+  .nav-acceuil{
+    float: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 48px;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
