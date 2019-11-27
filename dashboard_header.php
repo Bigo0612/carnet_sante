@@ -1,42 +1,4 @@
-<html lang="fr" dir="ltr">
-
-  <head>
-
-    <link rel="stylesheet" href="assets/front/css/flexslider.css">
-
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>ADN</title>
-    <link rel="stylesheet" href="assets/front/css/style.css">
-    <script src="https://kit.fontawesome.com/0184472428.js" crossorigin="anonymous"></script>
-  </head>
-
-  <body>
-
-  <h1>DASHBORD</h1>
-
-  <div class="wrap">
-    <header class="dashboard-header">
-          <div class="dashboard-boxlogo">
-              <a href="#"><img src="assets/front/img/logo_ADN.png" alt="logo_ADN"></a>
-          </div>
-              <nav class="dashboard-nav-acceuil">
-                <ul class="dashboard-nav navbar">
-                  <li><a class=""href="index.php">acceuil</a></li>
-                  <li><a href="#">vaccination</a></li>
-                  <li><a href="#">gestion profil</a></li>
-                </ul>
-              </nav>
-            <div class="dashboard-deconnection">
-                <a href="#">déconnection</a>
-              </div>
-
-    </header>
-
-  <div class="clear"></div>
+<?php include('header.php'); ?>
 
     <div class="wrap">
 
@@ -99,3 +61,4 @@
 
     </body>
   </html>
+<?php include('footer.php'); ?>

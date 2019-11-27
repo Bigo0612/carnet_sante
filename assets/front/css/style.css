@@ -14,6 +14,9 @@ body {
   font: 400 16px/1.3 'Roboto', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+}
 .wrap {
   width: 100%;
   margin: 0 auto;
