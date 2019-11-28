@@ -1,6 +1,5 @@
 <?php
-include('header.php');
-
+include('assets/front/inc/functions.php');
 
 $errors  = array();
 $success = false;
@@ -42,6 +41,8 @@ $select = array(
   <div class="retour-index"><a href="index.html">Accueil</a></div>
 <?php } else {?>
 
+<?php include('header.php');
+ ?>
 <div class="wrap">
 
 
