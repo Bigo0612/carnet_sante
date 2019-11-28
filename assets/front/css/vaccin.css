@@ -14,9 +14,10 @@
 }
 
 .formV input{
-  width: 300px;
+  width: 70%;
   padding: 10px;
   border-radius: 10px;
+  margin-left: 30px;
 }
 
 .form-vaccin input[type = "submit"]{
@@ -34,4 +35,9 @@
   font-weight: bold;
   text-decoration: underline;
   padding-left: 2%;
+  margin-left: 25px;
+}
+.form-vaccin-submit {
+  transform: translateX(68%);
+  margin-top: 23px;
 }

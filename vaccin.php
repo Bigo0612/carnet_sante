@@ -55,13 +55,13 @@ if(count($errors) == 0) {
 
 <form class="form-vaccin" action="" method="post">
 
-  <div  class="formV formv-accin">
+  <div  class="formV form-vaccin1">
     <label  class="label-vaccin" for="vaccin">Nom de votre vaccin à ajouter :</label>
     <input class="input-vaccin" type="text" id="vaccin" name="vaccin" value="<?php if (!empty($_POST['vaccin'])) {echo $_POST['vaccin'];} ?>">
     <span class="error"><?php if(!empty($errors['vaccin'])) {echo $errors['vaccin'];} ?>
   </div>
 
-  <div  class="formV form-vaccin1">
+  <div  class="formV form-vaccin2">
     <label  class="label-vaccin" for="vaccin1">Nom de votre second vaccin à ajouter :</label>
     <input class="input-vaccin" type="text" id="vaccin" name="vaccin1" value="<?php if (!empty($_POST['vaccin1'])) {echo $_POST['vaccin1'];} ?>">
     <span class="error"><?php if(!empty($errors['vaccin1'])) {echo $errors['vaccin1'];} ?>
