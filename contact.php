@@ -7,10 +7,10 @@ $success = false;
 
 if (!empty($_POST['submitted'])) {
 
-$nom = clean($_POST['nom']);
-$prenom = clean($_POST['prenom']);
-$mail = clean($_POST['mail']);
-$select = clean($_POST['select']);
+$nom      = clean($_POST['nom']);
+$prenom   = clean($_POST['prenom']);
+$mail     = clean($_POST['mail']);
+$select   = clean($_POST['select']);
 $textArea = clean($_POST['textArea']);
 
 $errors = textValid($nom,$errors,'nom',5,20);

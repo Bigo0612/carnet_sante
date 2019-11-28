@@ -34,17 +34,6 @@
     $role = "user";
     $password = password_hash($password, PASSWORD_DEFAULT);
 
-    $sql =" INSERT INTO `users`(`email`, `password`, `token`, 'role', `nom`, `prenom`, `created_at`)
-            VALUES (:email, :password, :token, :nom, :prenom, NOW())";
-      $query = $pdo->prepare($sql);
-      $query->bindValue(':email',$email, PDO::PARAM_STR);
-      $query->bindValue(':password',$password, PDO::PARAM_STR);
-      $query->bindValue(':token',$token, PDO::PARAM_STR);
-      $query->bindValue(':role',$role, PDO::PARAM_STR);
-      $query->bindValue(':nom',$nom, PDO::PARAM_STR);
-      $query->bindValue(':prenom',$prenom, PDO::PARAM_STR);
-      $query->execute();
-    }
   }
 
   include "header.php";

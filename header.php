@@ -17,9 +17,9 @@
 </head>
 
 <body>
-<?php if (!isset($_SESSION)) {
-    session_start();
-} ?>
+  <?php if (!isset($_SESSION)) {
+      session_start();
+  } ?>
 <h1>le titre ADN</h1>
 
 <div class="wrap">
@@ -36,7 +36,7 @@
             <nav class="dashboard-nav-acceuil">
                 <ul class="dashboard-nav navbar">
                     <li><a class="" href="index.php">acceuil</a></li>
-                    <li><a href="#">vaccination</a></li>
+                    <li><a href="carnet.php">vaccination</a></li>
                     <li><a href="#">gestion profil</a></li>
                 </ul>
             </nav>

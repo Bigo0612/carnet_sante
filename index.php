@@ -32,11 +32,11 @@
               </div>
 
               <div class="boxpresentationliencreation">
-                <p><a href="#">Créer un compte</a></p>
+                <p><a href="inscription.php">Créer un compte</a></p>
               </div>
 
               <div class="boxpresentationliencompte">
-                <p>Vous avez déjà un compte ? <a class="boxpresentationlienconnexion"href="#">Connectez-vous</a></p>
+                <p>Vous avez déjà un compte ? <a class="boxpresentationlienconnexion"href="connexion.php">Connectez-vous</a></p>
               </div>
             </div>
             <!-- Fin box gauche, penser à rajouter le alt de l'img -->

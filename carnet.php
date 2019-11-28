@@ -1,5 +1,8 @@
 <?php include "header.php";?>
+<?php
 
+
+ ?>
 <div class="profil">
 
   <div class="profilmichel">
@@ -9,7 +12,7 @@
   </div>
 
     <ul class="dropmenu">
-        <li><a href="#">Ajouter un vaccin</a></li><hr>
+        <li><a href="vaccin.php">Ajouter un vaccin</a></li><hr>
         <i class="fas fa-syringe dropvaccins"></i>
         <li><a href="#">Vaccination de voyage</a></li><hr>
         <i class="fas fa-plane dropvoyage"></i>
