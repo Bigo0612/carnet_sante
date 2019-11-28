@@ -1,0 +1,87 @@
+@import "reset.css";
+
+.profil{
+  margin-top: 180px;
+}
+
+.profilmichel {
+  background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8));
+  min-height: 90px;
+  border-radius: 4px;
+  color: #fff;
+  width: 25%;
+}
+
+.profilmichel .photoforet{
+  background-image:url('assets/front/img/montagne.jpg');
+  filter:alpha(opacity=50);
+  opacity: 0.2;
+  -moz-opacity:0.5;
+  min-height: 90px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+  .profilmichel .photofred{
+    border: 7px solid #fff;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  .profilnom{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .dropmenu{
+    padding-left: 40px;
+    padding-right: 20px;
+    margin: 0 0 40px 0;
+    width: 25%;
+    padding-top: 60px;
+  }
+
+  .dropmenu li {
+    list-style: none;
+    display: block;
+    padding: 15px 0;
+  }
+
+  .dropmenu li :hover {
+    text-decoration: underline;
+  }
+
+  .dropmenu i {
+    float: left;
+    position: relative;
+    margin-left: -30px;
+    margin-top: -50px;
+  }
+
+  .dropmenu hr {
+    margin-top: 10px;
+  }
+
+  .dropmenu .dropproteger {
+    color: #B60A0A;
+  }
+
+  .dropmenu .dropvoyage {
+    color: #035997;
+  }
+
+  .dropmenu .dropvaccins {
+    color: #3BACFC;
+  }
+
+  .dropmenu .dropprofil {
+    color: #36b346;
+  }
