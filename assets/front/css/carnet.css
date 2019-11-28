@@ -3,18 +3,72 @@
 .blockblanc {
   margin-top: 800px;
 }
-.carnet {
-  font-size: 3em;
+.boxtableau {
+  width: 100%;
+  padding-bottom: 100px;
 }
 table {
- border-width:1px;
- border-style:solid;
- border-color:black;
- width:50%;
- }
-td {
- border-width:1px;
- border-style:solid;
- border-color:red;
- width:50%;
- }
+  border-spacing: 1;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.tableaucarnet  {
+  border-collapse:collapse;
+  border-spacing:0;
+  border:none;
+  border-color:#9ABAD9;
+}
+.tableaucarnet td{
+  font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#9ABAD9;
+  color:#444;
+  background-color:#EBF5FF;
+}
+.tableaucarnet th{
+  font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:#9ABAD9;
+  color:#fff;
+  background-color:#409cff;
+}
+.tableaucarnet .ligne1{
+  background-color:#D2E4FC;
+  border-color:inherit;
+  text-align:left;
+  vertical-align:top;
+}
+.tableaucarnet .mainboard{
+  font-weight:bold;
+  font-size:24px;
+  border-color:inherit;
+  text-align:center;
+  vertical-align:top;
+}
+.tableau .ligne2{
+  border-color:inherit;
+  text-align:left;
+  vertical-align:top
+}
+.fa-edit {
+  color: grey;
+}
+.fa-times {
+  color : red;
+}
+.ligne3 {
+  text-align: center;
+}
