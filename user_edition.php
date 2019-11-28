@@ -46,6 +46,8 @@ if(isset($_POST['submited'])){
   }
 }
 
+include "admin_header.php";
+
 $form->init("", "post", "form-edition-user");
 $form->inputText("nom", "Nom: ", "Entrez un nom.", $user['nom']);
 if(!empty($error['nom'])){$formVerif->printError($error['nom']);};
@@ -57,3 +59,5 @@ $form->inputPassword("password", "Mot de passe: ", "");
 if(!empty($error['password'])){$formVerif->printError($error['password']);};
 $form->inputSubmit("submited", "Modifier");
 $form->end();
+
+include "admin_footer.php";
