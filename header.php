@@ -1,3 +1,5 @@
+<?php include('assets/front/inc/functions.php');?>
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 

@@ -1,5 +1,4 @@
 <?php
-include("assets/front/inc/functions.php");
 include('header.php');
 
 

@@ -52,4 +52,13 @@ function generateToken()
       return $token;
 }
 
+function isLogged()
+{
+if(!empty($_SESSION)){
+  session_start();
+    if(!is_string($_SESSION['id']) && !is_string($_SESSION['nom']) && !is_string($_SESSION['role']) && !is_string($_SESSION['token']) && !filter_var($_SESSION['email'], FILTER_VALIDATE_EMAIL)){
+      header('Location: 404.php');
+    }
+}
+}
 // FIN Fonctions;
