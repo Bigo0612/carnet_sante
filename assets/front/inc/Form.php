@@ -10,7 +10,7 @@ class Form{
     echo '</form>';
   }
 
-  public function inputText($name, $label, $placeholder, $classLabel = "", $classInput = "", $value = "", $idLabel = "", $idInput=""){
+  public function inputText($name, $label, $placeholder, $value = "", $classLabel = "", $classInput = "", $idLabel = "", $idInput=""){
     $input  = '<label id="'.$idLabel.'" class="'.$classLabel.'" for="'.$name.'">'.$label.'</label>';
     $input .= '<input id="'.$idInput.'" class="'.$classInput.'" type="text" name="'.$name.'" value="'.$value.'" placeholder="'.$placeholder.'">';
     echo $input;
