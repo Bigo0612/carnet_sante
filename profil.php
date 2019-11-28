@@ -11,7 +11,7 @@
   </div>
 
     <ul class="dropmenu">
-        <li><a href="#">Mes vaccins</a></li><hr>
+        <li><a href="#">Ajouter un vaccin</a></li><hr>
         <i class="fas fa-syringe dropvaccins"></i>
         <li><a href="#">Vaccination de voyage</a></li><hr>
         <i class="fas fa-plane dropvoyage"></i>
