@@ -27,27 +27,6 @@ if(count($errors) == 0) {
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
 
 <link rel="stylesheet" href="assets/front/css/vaccin.css">
