@@ -1,5 +1,5 @@
 <?php
-include('assets/front/inc/functions.php');
+include "header.php";
 include('assets/front/inc/pdo.php');
 include "assets/front/inc/Form.php";
 include "assets/front/inc/FormVerif.php";
@@ -32,11 +32,12 @@ if (isset($_POST['submited'])) {
             if (password_verify($password, $user['password']) && $email == $user['email']) {
                 session_start();
                 $_SESSION = array(
-                    'id' => $user['id'],
-                    'nom' => $user['nom'],
-                    'role' => $user['role'],
+                    'id'    => $user['id'],
+                    'nom'   => $user['nom'],
+                    'role'  => $user['role'],
+                    'token' => $user['token'],
                     'email' => $user['email'],
-                    'ip' => $_SERVER['REMOTE_ADDR'],
+                    'ip'    => $_SERVER['REMOTE_ADDR'],
                 );
                 header('Location: dashboard_header.php');
             } else {
@@ -48,7 +49,7 @@ if (isset($_POST['submited'])) {
     }
 }
 
-include "header.php";
+
 
 $form->init("", "post", "form-connexion");
 $form->inputText("email", "Email: ", "michel.michel@hotmail.fr");

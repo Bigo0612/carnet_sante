@@ -1,5 +1,4 @@
 <?php
-  include('assets/front/inc/functions.php');
   include('assets/front/inc/pdo.php');
   include "assets/front/inc/Form.php";
   include "assets/front/inc/FormVerif.php";
