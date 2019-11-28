@@ -1,0 +1,19 @@
+@import "reset.css";
+
+.cgu{
+  margin-top: 180px;
+}
+
+H2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bold;
+}
