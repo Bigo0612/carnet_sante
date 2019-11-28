@@ -1,3 +1,14 @@
+<?php
+
+include "assets/back/inc/pdo.php";
+
+$sql = "SELECT * from users WHERE 1";
+$query = $pdo->prepare($sql);
+$query->execute();
+$users = $query->fetchALL();
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -73,7 +84,7 @@
                           <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                                 <tr>
-                                    <th>Id</th>
+                                    <th>Prenom</th>
                                     <th>Email</th>
                                     <th>Roles</th>
                                     <th>Edition</th>
@@ -81,7 +92,15 @@
                                 </tr>
                             </thead>
                             <tbody>
-
+                              <?php foreach ($users as $key => $user): ?>
+                                <tr>
+                                  <td><?php echo $user['prenom']; ?></td>
+                                  <td><?php echo $user['email']; ?></td>
+                                  <td><?php echo $user['roles'] ?></td>
+                                  <td><a class="btn btn-success"href="user_edition.php?id=<?php echo $user['id'] ?>">EDITION</a></td>
+                                  <td><a class="btn btn-danger" href="user_suppression.php?id=<?php echo $user['id'] ?>">SUPPRESSION</a></td>
+                                </tr>
+                              <?php endforeach; ?>
                             </tbody>
                         </table>
 
