@@ -32,9 +32,11 @@ if (isset($_POST['submited'])) {
 
         if (!empty($user)) {
             if (password_verify($password, $user['password']) && $email == $user['email']) {
+                session_start();
                 $_SESSION = array(
                     'id' => $user['id'],
                     'nom' => $user['nom'],
+                    'role' => $user['role'],
                     'email' => $user['email'],
                     'ip' => $_SERVER['REMOTE_ADDR'],
                 );
