@@ -1,11 +1,8 @@
-@import "reset.css";
 
-.blockblanc {
-  margin-top: 800px;
-}
 .boxtableau {
   width: 100%;
   padding-bottom: 100px;
+  margin-top: 200px;
 }
 table {
   border-spacing: 1;

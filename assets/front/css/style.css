@@ -4,6 +4,8 @@
 @import "form-contact.css";
 @import "section-partenaire.css";
 @import "dashboard_header.css";
+@import "carnet.css";
+@import "profil.css";
 
 .form-inscription, .form-connexion, .form-contact{
   margin-top: 220px;
@@ -594,6 +596,17 @@ font-size: 1.2em;
 
 .menu-burger i{
   display: none;
+}
+
+.profil{
+  position: relative;
+}
+
+.boxtableau{
+  position: absolute;
+  top: 80px;
+  left: 600px;
+  width: 50%;
 }
 
 @media screen and (max-width: 768px){
