@@ -12,7 +12,7 @@ $users = $query->fetchALL();
 <?php include "admin_header.php"; ?>
 
 
-                    <i class="fas fa-table"></i> Liste des utilisateurs <a href="#">Créer un nouvelle utilisateur</a></div>
+                    <i class="fas fa-table"></i> Liste des utilisateurs <a href="user_creation.php">Créer un nouvelle utilisateur</a></div>
                       <div class="card-body">
                         <div class="table-responsive">
                           <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
