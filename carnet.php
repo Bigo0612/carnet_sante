@@ -1,13 +1,20 @@
-<?php include "header.php";?>
-<?php
+<?php include "header.php";
+include('assets/front/inc/pdo.php');
+
 if(!empty($_SESSION)){
 
 } else {
   header('Location:404.php');
 }
-?>
-
-
+// 
+// $sql ="SELECT *
+//        FROM vaccins"
+//        $query  = $pdo->prepare($sql);
+//        $query->execute();
+//        $vacc = $query->fetchAll();
+// ?>
+//
+//
 
 <div class="profil">
 
@@ -40,7 +47,7 @@ if(!empty($_SESSION)){
       <th class="mainboard">Suppr</th>
     </tr>
     <tr>
-      <td class="ligne1"></td>
+      <td class="ligne1"><?php $vacc['id']; ?></td>
       <td class="ligne1"></td>
       <td class="ligne1"></td>
       <td class="ligne3"><button type="submit" class="btn btn-default"><i class="far fa-edit"></i></button></td>
