@@ -2,6 +2,7 @@
   include('assets/front/inc/pdo.php');
   include "assets/front/inc/Form.php";
   include "assets/front/inc/FormVerif.php";
+  include('assets/front/inc/functions.php');
 
   $form = new Form;
   $formVerif = new FormVerif;
