@@ -35,7 +35,7 @@
     $password = password_hash($password, PASSWORD_DEFAULT);
 
   }
-
+}
   include "header.php";
 
   $form->init("", "post", "form-inscription");

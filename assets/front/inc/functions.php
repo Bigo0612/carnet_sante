@@ -33,7 +33,7 @@ function textValid($value, $err, $key, $min, $max,$empty = true)
    }
   return $err;
 }
-
+//
 function debug($value)
 {
 echo '<pre>';

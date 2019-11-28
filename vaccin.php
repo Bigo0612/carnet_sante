@@ -1,5 +1,5 @@
 <?php include('header.php');?>
-<?php include('assets/front/incs/functions.php');?>
+<?php include('assets/front/inc/functions.php');?>
 
 <?php if(!empty($_SESSION)){
 
@@ -11,7 +11,8 @@
 <?php
 $errors  = array();
 $success = false;
-if(!empty($_POST['submitted'])) {
+
+if(!empty($_POST['submitVaccin'])) {
 
 $vaccin  = clean($_POST['vaccin']);
 $vaccin1 = clean($_POST['vaccin1']);
@@ -67,7 +68,7 @@ if(count($errors) == 0) {
   </div>
 
   <div class ="form-vaccin-submit">
-    <input type="submit" name="submitted" value="Envoyer">
+    <input type="submit" name="submitVaccin" value="Envoyer">
   </div>
 
 </form>

@@ -2,7 +2,7 @@
 include('header.php');
 
 
-$errors = array();
+$errors  = array();
 $success = false;
 
 if (!empty($_POST['submitted'])) {
@@ -95,3 +95,4 @@ $select = array(
 </div>
 <?php }
 include('footer.php');
+?>

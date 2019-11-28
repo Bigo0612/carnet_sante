@@ -33,7 +33,7 @@
     <div class="column column4">
       <h4 class="column-title">Nous contacter</h4>
       <ul class="Apropos">
-        <li><a href="contact.php#form-encre">Formulaire de Contact</a></li>
+        <li><a href="contact.php">Formulaire de Contact</a></li>
       </ul>
     </div>
   </div>

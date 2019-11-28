@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -17,9 +18,7 @@
 </head>
 
 <body>
-  <?php if (!isset($_SESSION)) {
-      session_start();
-  } ?>
+
 <h1>le titre ADN</h1>
 
 <div class="wrap">
