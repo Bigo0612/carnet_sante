@@ -1,8 +1,14 @@
 <?php include "header.php";?>
 <?php
+if(!empty($_SESSION)){
+
+} else {
+  header('Location:404.php');
+}
+?>
 
 
- ?>
+
 <div class="profil">
 
   <div class="profilmichel">

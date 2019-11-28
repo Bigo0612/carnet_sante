@@ -1,12 +1,12 @@
 <?php include('header.php');?>
-<?php include('assets/front/inc/functions.php');?>
 
 <?php if(!empty($_SESSION)){
 
 } else {
   header('Location:404.php');
-}
-?>
+} ?>
+<?php include('assets/front/inc/functions.php');?>
+
 
 <?php
 $errors  = array();

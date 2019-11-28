@@ -1,10 +1,3 @@
-<?php
-if(!empty($_SESSION)){
-
-} else {
-  header('Location:404.php');
-} ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 

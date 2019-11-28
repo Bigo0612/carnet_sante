@@ -40,7 +40,7 @@ echo '<pre>';
 print_r($value);
 echo '<pre>';
 }
-
+//
 function generateToken()
 {
   $token = '';
@@ -51,5 +51,4 @@ function generateToken()
     }
       return $token;
 }
-
 // FIN Fonctions;
