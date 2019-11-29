@@ -36,7 +36,7 @@
         if (!empty($_SESSION)) { ?>
             <nav class="dashboard-nav-acceuil">
                 <ul class="dashboard-nav navbar">
-                    <li><a class="" href="index.php">acceuil</a></li>
+                    <li><a class="" href="index.php">accueil</a></li>
                     <li><a href="carnet.php">vaccination</a></li>
                     <li><a href="#">gestion profil</a></li>
                 </ul>
@@ -48,7 +48,7 @@
         <?php } else { ?>
             <nav class="nav-acceuil" id="navburger">
                 <ul class="nav navbar">
-                    <li><a href="index.php">acceuil</a></li>
+                    <li><a href="index.php">accueil</a></li>
                     <li><a href="#">presentation</a></li>
                     <li><a href="#qsn">qui sommes nous</a></li>
                     <li><a href="#vaccination">vaccination</a></li>
