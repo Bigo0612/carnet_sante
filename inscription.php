@@ -8,6 +8,7 @@
   $formVerif = new FormVerif;
 
   $error = array();
+  $errors = array();
 
   if(isset($_POST['submited'])){
     $nom       = trim(strip_tags($_POST['nom']));
@@ -19,7 +20,6 @@
     $cgu       = trim(strip_tags((!empty($_POST['cgu'])) ? true : false));
 
 
-
     $error['nom']       = $formVerif->errorText($nom, 'nom', 5, 20);
     $error['prenom']    = $formVerif->errorText($prenom, 'prenom', 5, 20);
     $error['email']     = $formVerif->errorEmail($email, 'email', 10, 100);
@@ -28,14 +28,25 @@
     $error['password2'] = $formVerif->errorRepeat($password, $password2, 'Les mots de passe ne correspondent pas.');
     $error['cgu']       = $formVerif->errorCheckBox($cgu, "Veuillez accepter les CGU.");
 
-    if (!empty($error)) {
 
-    $token = generateToken();
-    $role = "user";
-    $password = password_hash($password, PASSWORD_DEFAULT);
+  if ($formVerif->noerror($errors)) {
 
-  }
-}
+      $token = generateToken();
+      $role = "user";
+      $password = password_hash($password, PASSWORD_DEFAULT);
+
+      $sql =" INSERT INTO `users`(`email`, `password`, `token`, `nom`, `prenom`, `created_at`)
+              VALUES (:email, :password, :token, :nom, :prenom, NOW())";
+        $query = $pdo->prepare($sql);
+        $query->bindValue(':email',$email, PDO::PARAM_STR);
+        $query->bindValue(':password',$password, PDO::PARAM_STR);
+        $query->bindValue(':token',$token, PDO::PARAM_STR);
+        $query->bindValue(':nom',$nom, PDO::PARAM_STR);
+        $query->bindValue(':prenom',$prenom, PDO::PARAM_STR);
+        $query->execute();
+        header('Location: connexion.php');
+      }
+    }
   include "header.php";
 
   $form->init("", "post", "form-inscription");

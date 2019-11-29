@@ -25,7 +25,7 @@
     <div class="column column3">
       <h4 class="column-title">Mentions légales</h4>
       <ul class="Apropos">
-        <li><a href="#FakeCGU">CGU</a></li>
+        <li><a href="cgu.php">CGU</a></li>
         <li><a href="#FakeAide">Aide</a></li>
       </ul>
     </div>

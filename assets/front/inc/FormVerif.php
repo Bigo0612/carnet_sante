@@ -41,4 +41,14 @@ class FormVerif{
   public function printError($text){
     echo '<p style="color: red">'.$text.'</p>';
   }
+
+  public function noerror($errors)
+  {
+      foreach($errors as $error) {
+        if(!empty($error)) {
+          return false;
+        }
+      }
+      return true;
+  }
 }
