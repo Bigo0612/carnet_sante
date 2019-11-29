@@ -11,6 +11,7 @@
   $errors = array();
 
   if(isset($_POST['submited'])){
+
     $nom       = trim(strip_tags($_POST['nom']));
     $prenom    = trim(strip_tags($_POST['prenom']));
     $email     = trim(strip_tags($_POST['email']));
@@ -29,7 +30,7 @@
     $error['cgu']       = $formVerif->errorCheckBox($cgu, "Veuillez accepter les CGU.");
 
 
-  if ($formVerif->noerror($errors)) {
+  if ($formVerif->noerror($error)) {
 
       $token = generateToken();
       $role = "user";
@@ -47,6 +48,8 @@
         header('Location: connexion.php');
       }
     }
+
+
   include "header.php";
 
   $form->init("", "post", "form-inscription");
